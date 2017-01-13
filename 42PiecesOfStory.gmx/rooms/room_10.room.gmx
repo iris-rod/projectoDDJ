@@ -53,6 +53,51 @@
   <instances>
     <instance objName="obj_collision_player" x="0" y="-64" name="inst_A9049A2C" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="0" y="512" name="inst_F18BC9CD" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="96" y="192" name="inst_F3385B2E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="96" y="224" name="inst_6D507258" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="96" y="416" name="inst_7EC1FDF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="96" y="384" name="inst_2834CCEC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="224" y="256" name="inst_0D177747" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="256" y="256" name="inst_0344C96E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="160" y="96" name="inst_E222B87A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="128" y="96" name="inst_4E330483" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="384" y="128" name="inst_522FB8F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block" x="224" y="352" name="inst_23335B29" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block" x="224" y="288" name="inst_4293E98C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block" x="352" y="320" name="inst_A47B5724" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_target" x="96" y="448" name="inst_9816254C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_target" x="352" y="160" name="inst_B1A430AD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_target" x="352" y="128" name="inst_97873F5D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="416" y="480" name="inst_174ABC7F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="352" y="0" name="inst_44DA3A81" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="192" y="0" name="inst_871F85A9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="224" y="0" name="inst_8D3A8A43" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="256" y="0" name="inst_2FA6BD44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="320" y="0" name="inst_E8511443" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="288" y="0" name="inst_C7EA6985" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="384" y="0" name="inst_9CDD5778" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="416" y="0" name="inst_0DAE6ADD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="96" y="512" name="inst_ED53E268" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="128" y="512" name="inst_868A4C1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="192" y="512" name="inst_5BE27B27" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="160" y="512" name="inst_D2E22E9C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="224" y="512" name="inst_B1E7B876" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="256" y="512" name="inst_91C4A6BB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="288" y="512" name="inst_5CED73CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="320" y="512" name="inst_A4844125" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="352" y="512" name="inst_CD07F4A1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="384" y="512" name="inst_E2A33B33" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="416" y="512" name="inst_0F1CA6C5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="192" y="96" name="inst_2F94B30F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="384" y="0" name="inst_E6908347" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="416" y="32" name="inst_5B24433E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="384" y="32" name="inst_642F2EB7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="224" y="32" name="inst_CEA36B2D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="256" y="32" name="inst_805B24DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="288" y="32" name="inst_02626B7D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="320" y="32" name="inst_0FE3B8DF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ice_block_unmovable" x="352" y="32" name="inst_CD057527" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_warp_room01" x="576" y="256" name="inst_ED7763A2" locked="0" code="targetRoom = room_11&#xA;targetX = 32&#xA;targetY = 230&#xA;areaUnlocked = false" scaleX="5.5806450843811" scaleY="12.6875" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background17" x="96" y="224" w="32" h="32" xo="512" yo="480" id="10004019" name="inst_1D87CA62" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
