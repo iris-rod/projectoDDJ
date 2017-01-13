@@ -10,14 +10,7 @@
   <persistent>0</persistent>
   <colour>0</colour>
   <showcolour>-1</showcolour>
-  <code>instance_create(450,300,obj_enemy_goblin);
-with(obj_player){
-    
-    sprite_index = asset_get_index("spr_idle_sword_right");
-    //image_speed *= 3;  
-       
-
-}</code>
+  <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -58,26 +51,15 @@ with(obj_player){
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
-    <instance objName="obj_wall" x="480" y="128" name="inst_AC52BC67" locked="0" code="" scaleX="1" scaleY="0.376470595598221" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="472" y="96" name="inst_AC52BC67" locked="0" code="" scaleX="1" scaleY="0.376470595598221" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="0" y="160" name="inst_687D554D" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="32" y="160" name="inst_A081CB40" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="64" y="352" name="inst_44695667" locked="0" code="" scaleX="14.4516124725342" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_neutral" x="0" y="32" name="inst_BD7D1F08" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="64" y="160" name="inst_33AD793C" locked="0" code="" scaleX="1" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="53" y="169" name="inst_0A96D2FB" locked="0" code="" scaleX="1" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="476" y="205" name="inst_E2429F37" locked="0" code="" scaleX="1.78787875175476" scaleY="0.34375" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="484" y="297" name="inst_C955E4F4" locked="0" code="" scaleX="0.78125" scaleY="0.484496116638184" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_room01" x="-32" y="96" name="inst_7BED2156" locked="0" code="targetRoom = room_7&#xA;targetX = 448&#xA;targetY = 96&#xA;areaUnlocked = true&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="224" name="inst_AC1C3A44" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="256" name="inst_900367D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="288" name="inst_9C55C662" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="96" name="inst_4E134F99" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="128" name="inst_A3FB6957" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="160" name="inst_25672BA6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="192" name="inst_034248E5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_ice_cavern" x="480" y="320" name="inst_410F73D9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_room01" x="480" y="96" name="inst_FDA332AB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_room01" x="512" y="224" name="inst_0FB9D569" locked="0" code="targetRoom = room_9&#xA;targetX = 32&#xA;targetY = 128&#xA;areaUnlocked = true&#xA;&#xA;&#xA;" scaleX="1.71875" scaleY="8.4375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="475" y="192" name="inst_E2429F37" locked="0" code="" scaleX="1" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="473" y="256" name="inst_C955E4F4" locked="0" code="" scaleX="1" scaleY="0.375" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background16" x="0" y="64" w="32" h="32" xo="96" yo="192" id="10003078" name="inst_AC621D54" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

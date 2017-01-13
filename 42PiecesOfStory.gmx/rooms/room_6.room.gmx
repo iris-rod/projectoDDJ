@@ -61,11 +61,6 @@
     <instance objName="obj_collision_player" x="96" y="160" name="inst_0919F500" locked="0" code="" scaleX="1.375" scaleY="0.16666667163372" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="352" y="160" name="inst_369092B5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="365" y="261" name="inst_0D55449A" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="128" y="256" name="inst_8258C7E1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_stats" x="96" y="64" name="inst_210DD40C" locked="0" code="" scaleX="0.492424249649048" scaleY="0.471264362335205" colour="4294967295" rotation="0"/>
-    <instance objName="obj_coin_count" x="96" y="96" name="inst_9F65B1D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_totem" x="0" y="0" name="inst_08E19C4F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_room01" x="512" y="224" name="inst_35BF2B97" locked="0" code="targetRoom = room_7&#xA;targetX = 32&#xA;targetY = 224&#xA;areaUnlocked = true" scaleX="1.5" scaleY="2.5" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background16" x="96" y="160" w="32" h="32" xo="32" yo="32" id="10002818" name="inst_BC919EAF" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

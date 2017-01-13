@@ -10,16 +10,7 @@
   <persistent>0</persistent>
   <colour>12632256</colour>
   <showcolour>-1</showcolour>
-  <code>enum enemy_state{
-    stop,
-    idle,
-    chase
-}
-enum stage_state{
-    spiders,
-    wolfs,
-    mixed
-}</code>
+  <code></code>
   <enableViews>0</enableViews>
   <clearViewBackground>-1</clearViewBackground>
   <clearDisplayBuffer>-1</clearDisplayBuffer>
@@ -123,12 +114,6 @@ enum stage_state{
     <instance objName="obj_warp_room01" x="448" y="352" name="inst_46413871" locked="0" code="targetRoom = room_2;&#xA;targetX = 90;&#xA;targetY = 380;&#xA;areaUnlocked = true;" scaleX="1.5" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_stats" x="96" y="64" name="inst_86A640D6" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_coin_count" x="96" y="96" name="inst_0015104C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fire" x="288" y="224" name="inst_1AF7FA3D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fire" x="256" y="256" name="inst_C4095973" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fire" x="128" y="192" name="inst_45BDCE70" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fire" x="160" y="128" name="inst_1BC956FE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fire" x="224" y="128" name="inst_FE0620AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_fire" x="288" y="160" name="inst_CF192D1E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_neutral" x="128" y="224" name="inst_B5E6978B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_neutral" x="128" y="192" name="inst_CB4CD40B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_neutral" x="128" y="160" name="inst_CE02CC6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

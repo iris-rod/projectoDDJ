@@ -52,8 +52,8 @@
             <string>if(other.invincibility == false)
 {
     //calculate damage to the player 
-    other.hp = other.hp - baseDamage
-    show_debug_message("hero hp: " + string(baseDamage))
+    /////////////////////////////////
+    show_debug_message(baseDamage)
     
 }
 instance_destroy()

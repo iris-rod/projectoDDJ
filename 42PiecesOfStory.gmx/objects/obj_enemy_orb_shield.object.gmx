@@ -3,7 +3,7 @@
   <spriteName>spr_orb_full</spriteName>
   <solid>0</solid>
   <visible>-1</visible>
-  <depth>-1</depth>
+  <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
@@ -138,9 +138,8 @@ else if(mage.currentStage == "shields")
     x = mage.x + lengthdir_x(mage.radiusToShield, place)
     y = mage.y + lengthdir_y(mage.radiusToShield, place)
     place+=mage.orbitSpeed
-}
-
     image_angle+=5
+}
 </string>
           </argument>
         </arguments>

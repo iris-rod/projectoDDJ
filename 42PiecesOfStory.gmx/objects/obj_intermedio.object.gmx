@@ -90,7 +90,7 @@
         <arguments>
           <argument>
             <kind>11</kind>
-            <room>room_1_2</room>
+            <room>room_1</room>
           </argument>
         </arguments>
       </action>

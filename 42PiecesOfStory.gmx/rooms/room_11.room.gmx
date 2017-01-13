@@ -53,10 +53,6 @@
   <instances>
     <instance objName="obj_collision_player" x="0" y="160" name="inst_88285F02" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="0" y="512" name="inst_EAEFF9FD" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_room01" x="512" y="352" name="inst_3BAA1406" locked="0" code="targetRoom = room_12&#xA;targetX = 32&#xA;targetY = 230&#xA;areaUnlocked = true&#xA;&#xA;flag = true&#xA;&#xA;" scaleX="1.84375" scaleY="9.40625" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_skel_archer" x="256" y="480" name="inst_DF270D30" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_skel_warrior" x="160" y="256" name="inst_31DB2C6C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_skel_warrior" x="416" y="288" name="inst_B56FE27E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background17" x="0" y="0" w="32" h="32" xo="608" yo="544" id="10004468" name="inst_EF004F8D" depth="5" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

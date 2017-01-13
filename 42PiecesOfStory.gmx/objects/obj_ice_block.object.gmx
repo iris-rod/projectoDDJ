@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_block</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -28,7 +28,7 @@
             <string>movX = 0
 movY = 0
 
-margin = 2
+margin = 5
 
 </string>
           </argument>
@@ -52,35 +52,9 @@ margin = 2
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>event_inherited();
-/*
-layer_id = tile_layer_find(5,x+margin+movX,y+margin+movY)
-if(layer_id){
-    show_debug_message("here stop");
-    hspeed = 0
-    vspeed = 0
-    movX = 0
-    movY = 0
-    
-}
+            <string>script_execute(moveBlock);
 
-if(place_meeting(x+movX,y+movY,obj_ice_block) || place_meeting(x+movX,y+movY,obj_ice_block_unmovable)){
-    show_debug_message("other blocks");
-    hspeed = 0
-    vspeed = 0
-    movX = 0
-    movY =0
-}
-*/
-/*
-if(x+movX &gt;= room_width || x-movX &lt;= 0 || y+movY &gt;= room_height || y-movY &lt;= 0){
-    show_debug_message("here stop2");
-    hspeed = 0
-    vspeed = 0
-    movX = 0
-    movY =0
-}
-*/
+
 
 </string>
           </argument>

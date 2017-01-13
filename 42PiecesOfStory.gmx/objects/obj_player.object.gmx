@@ -25,20 +25,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>name = "Cagatacos#___________#"
-nameSword = "Cometacos#___________#"
-desc = "????#______#"
-color = c_green;
-txt="";
-
-//global variable 
+            <string>//global variable 
 roomCleared      = false
 roomSuperCleared = false
-batatinhas       = true
-caralho          = false
-flag             = true
-destroyedIce     = false
-
+batatinhas = true
+caralho = false
+menuOpened = false
 //Change stance time variables
 changeWepCooldownIni = 0;
 changeWepCooldownFin = 0;
@@ -74,7 +66,7 @@ canUseBow    = true;
 canUseStaff  = true;
 
 //player variables
-cutScene            = true;
+cutScene            = false;
 flagCScene          = true;
 realPlayerDirection = "down";
 playerDirection     = "down";
@@ -92,7 +84,7 @@ hp                  = player_hp_default;
 invincibility       = false;
 attacking           = false;
 hidden              = false;
-coins               = 0;
+coins               = 100;
 coin_caught         = false;
 
 //attacking
@@ -105,9 +97,7 @@ abilityAgil        = false;
 abilityInt         = false;
 swordHold          = 0;
 holding            = false;
-canUseAbility      = false;
-canUseAbilityAgil  = false;
-canUseAbilityInt   = false;
+canUseAbility      = true;
 swordNormalAttack  = 1;
 swordAbilityAttack = 3;
 
@@ -140,7 +130,7 @@ movementSpeedUp = false;
 powerUpOn       = false;
 attackSpeedUp   = false; 
 
-pointsToAdd = 0
+pointsToAdd = 2
 
 
 
@@ -164,7 +154,7 @@ pointsToAdd = 0
         <arguments>
           <argument>
             <kind>14</kind>
-            <timeline>Cutscene_CH2_wakeUp</timeline>
+            <timeline>Cutscene_CH1_Sleep</timeline>
           </argument>
           <argument>
             <kind>0</kind>
@@ -172,7 +162,7 @@ pointsToAdd = 0
           </argument>
           <argument>
             <kind>4</kind>
-            <string>0</string>
+            <string>1</string>
           </argument>
           <argument>
             <kind>4</kind>
@@ -219,54 +209,6 @@ pointsToAdd = 0
           <argument>
             <kind>1</kind>
             <string>invincibility = false
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="3">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>hspeed = 0
-vspeed = 0
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="2">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>attacking = false;
-abilityInt = false;
 </string>
           </argument>
         </arguments>
@@ -344,57 +286,35 @@ invincibility = false;
 if(!menuOpened){
 
     //player´s movement
-    if(room == 2 &amp;&amp; !instance_exists(obj_enemy) &amp;&amp; !roomCleared){
+    if(room == 3 &amp;&amp; !instance_exists(obj_enemy) &amp;&amp; !roomCleared){
         roomCleared = true
         script_execute(getTimeline,Cutscene_CH1_room2,false)
         //roomCleared = false
     }
     
-    if(room == 5 &amp;&amp; !instance_exists(obj_enemy) &amp;&amp; !roomSuperCleared){
+    if(room == 6 &amp;&amp; !instance_exists(obj_enemy) &amp;&amp; !roomSuperCleared){
         roomSuperCleared = true
         script_execute(getTimeline,Cutscene_CH1_room5_cat,false)
         //roomCleared = false
     }
         
-    if(room == 3 &amp;&amp; !instance_exists(obj_enemy)){
+    if(room == 7 &amp;&amp; !instance_exists(obj_enemy)){
         obj_warp_room01.areaUnlocked = true
     }
-    if(room == 4 &amp;&amp; !instance_exists(obj_enemy)){
+    if(room == 8 &amp;&amp; !instance_exists(obj_enemy)){
         obj_warp_room01.areaUnlocked = true
     }
     
-    if(room == 5 &amp;&amp; !instance_exists(obj_enemy)){
+    if(room == 6 &amp;&amp; !instance_exists(obj_enemy)){
         obj_warp_room01.areaUnlocked = true
     }
-    if(room == 5 &amp;&amp; !instance_exists(obj_log) &amp;&amp; !caralho){
+    if(room == 6 &amp;&amp; !instance_exists(obj_log) &amp;&amp; !caralho){
         script_execute(getTimeline, FinalDemo, false)
         caralho = true
     }
-    if(room == 5 &amp;&amp; batatinhas){
+    if(room == 6 &amp;&amp; batatinhas){
         script_execute(getTimeline,Cutscene_CH1_room5,false)
         batatinhas = false
-    }
-    
-    if(room == 8 &amp;&amp; flag){
-        script_execute(getTimeline,Cutscene_CH2_GoblinIce,true)
-        flag=false
-    }
-    if(room == 8 &amp;&amp; !destroyedIce &amp;&amp; instance_exists(obj_enemy_goblin) &amp;&amp; !instance_exists(obj_ice_cavern)){
-        
-        script_execute(getTimeline,Cutscene_CH2_GoblinThanks,false)
-        destroyedIce = true
-    }
-    if(room == 12 &amp;&amp; flag){
-        script_execute(getTimeline,BeginningDungeonAcolyte,false)
-        flag=false
-    }
-    
-    if(timeline_running == true){
-        if (mouse_check_button_pressed(mb_left)){
-            script_execute(FastText,obj_player,10);
-            script_execute(FastText,obj_cry_girl,10);
-            script_execute(FastText,obj_enemy_goblin,10);  
-        }
     }
     
     if(cutScene == false){
@@ -443,15 +363,11 @@ if(!menuOpened){
         if(dodgeTime &gt;= dodgeCooldownFin){
             dodgeCooldownIni = dodgeTime;
             dodgeCooldownFin = dodgeTime + dodgeCooldown;
-            script_execute(Dodge,realPlayerDirection,room_speed-10)
+            script_execute(Dodge,obj_player,realPlayerDirection,100)
             dodge = false;
         }
     }
     
-    //set speed to 0
-    if(alarm[3]==-1){
-        alarm[3] = 2
-    }
     //clicar tecla para mudar de stance
     if(keyboard_check(ord("R"))){
         //script_execute(getTimeline,Cutscene_CH1_room5_cat,false);
@@ -488,6 +404,7 @@ if(!menuOpened){
         if(place_meeting(x,y,obj_rock)){
             obj_player.hidden=true;
             obj_enemy_wolf.state=enemy_state.stop;
+           
         }
         else {
             obj_player.hidden=false;
@@ -594,21 +511,16 @@ swordHold = 0;
           <argument>
             <kind>1</kind>
             <string>
-if(attacking &amp;&amp; !abilityAgil &amp;&amp; !abilityInt){
+if(attacking &amp;&amp; !abilityAgil){
     attacking = false;
     ability = false;
     numbArrows = 0;
     numbFireballs = 0;
 
 }
-//stop special attacks agility
+//stop special attacks
 if(attacking &amp;&amp; abilityAgil &amp;&amp; alarm[1] = -1){
     alarm[1] = 10
-}
-
-//stop special attacks intelligence
-if(attacking &amp;&amp; abilityInt &amp;&amp; alarm[2] = -1){
-    alarm[2] = 10
 }
 </string>
           </argument>
@@ -769,7 +681,7 @@ script_execute(setMainMenu,menuOpened);
             specialAttackCooldownIni = specialAttackTime;
             specialAttackCooldownFin = specialAttackTime + specialAttackCooldown;
                 
-            if (!(keyA &amp;&amp; keyS) &amp;&amp; !(keyA &amp;&amp; keyW) &amp;&amp; !(keyD &amp;&amp; keyS) &amp;&amp; !(keyD &amp;&amp; keyW) &amp;&amp; canUseAbilityInt){
+            if (!(keyA &amp;&amp; keyS) &amp;&amp; !(keyA &amp;&amp; keyW) &amp;&amp; !(keyD &amp;&amp; keyS) &amp;&amp; !(keyD &amp;&amp; keyW) &amp;&amp; canUseAbility){
                 abilityInt = true;
                 attacking = true;
             }
@@ -845,7 +757,7 @@ script_execute(setMainMenu,menuOpened);
             specialAttackCooldownIni = specialAttackTime;
             specialAttackCooldownFin = specialAttackTime + specialAttackCooldown;
                 
-            if (!(keyA &amp;&amp; keyS) &amp;&amp; !(keyA &amp;&amp; keyW) &amp;&amp; !(keyD &amp;&amp; keyS) &amp;&amp; !(keyD &amp;&amp; keyW) &amp;&amp; canUseAbilityAgil){
+            if (!(keyA &amp;&amp; keyS) &amp;&amp; !(keyA &amp;&amp; keyW) &amp;&amp; !(keyD &amp;&amp; keyS) &amp;&amp; !(keyD &amp;&amp; keyW) &amp;&amp; canUseAbility){
                 abilityAgil = true;
                 attacking = true;
             }

@@ -25,12 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>name = "BadGoblin#___________#"
-nameGood = "GoodGobline#_____________#"
-color = c_red;
-txt="";
-
-direction = 180
+            <string>direction = 180
 flagRandom = false;
 hp = 15
 /*attacking = false

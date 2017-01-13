@@ -58,10 +58,6 @@
     <instance objName="obj_collision_player" x="416" y="128" name="inst_9B9A5949" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="224" y="128" name="inst_B4A2170D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="0" y="512" name="inst_CC811757" locked="0" code="" scaleX="16" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_warp_room01" x="320" y="128" name="inst_607B4AED" locked="0" code="targetRoom = room_MageWolves&#xA;targetX = 32&#xA;targetY = 230&#xA;areaUnlocked = true&#xA;" scaleX="3.32258057594299" scaleY="2.25" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_bat" x="128" y="192" name="inst_A4228EAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_bat" x="320" y="320" name="inst_312EBF5F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_enemy_bat" x="224" y="416" name="inst_2E52BAB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background18" x="0" y="0" w="32" h="32" xo="224" yo="32" id="10005441" name="inst_0D48114B" depth="20" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
