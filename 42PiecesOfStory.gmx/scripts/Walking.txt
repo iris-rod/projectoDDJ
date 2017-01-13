@@ -1,0 +1,8 @@
+///Walking(key,movSpe,playerDir,playerStan)
+
+if(keyboard_check(ord(key)) && (place_free(x,y+movSpe))){
+    y += movSpe;
+    sprite_index = spr_walk_animation_down;
+    image_speed = movSpe;
+    playerDirection = playerDir;
+}
