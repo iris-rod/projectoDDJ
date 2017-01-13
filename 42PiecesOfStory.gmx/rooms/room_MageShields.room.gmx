@@ -52,17 +52,6 @@
   </views>
   <instances>
     <instance objName="obj_collision_neutral" x="0" y="0" name="inst_7E2EA672" locked="0" code="" scaleX="1" scaleY="-0.0322580635547638" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="576" y="320" name="inst_638E8F3D" locked="0" code="targetRoom = room_MageFinal&#xA;targetX = 40&#xA;targetY = 225&#xA;areaUnlocked = false&#xA;visible = false&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
-    <instance objName="&lt;undefined&gt;" x="416" y="224" name="inst_D04FF173" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="0" y="128" name="inst_4341DA97" locked="0" code="" scaleX="1" scaleY="12" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="32" y="480" name="inst_018CD72A" locked="0" code="" scaleX="17" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="576" y="128" name="inst_78097772" locked="0" code="" scaleX="1" scaleY="7" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="576" y="352" name="inst_500D3E6F" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="544" y="128" name="inst_A85C44F5" locked="0" code="" scaleX="-5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="544" y="128" name="inst_C61596A8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="224" y="160" name="inst_78BB2E19" locked="0" code="" scaleX="5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="192" y="128" name="inst_71085427" locked="0" code="" scaleX="-5" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="192" y="128" name="inst_272F3223" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="background18" x="32" y="32" w="32" h="32" xo="224" yo="352" id="10005520" name="inst_83B93F09" depth="10" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>

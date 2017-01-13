@@ -459,6 +459,8 @@ if(!menuOpened){
             changeWepCooldownIni = time;
             changeWepCooldownFin = time + changeWepCooldown; 
             countStances ++;
+            if(countStances &gt;= (array_length_1d(stances))) countStances = 0; 
+            show_debug_message(countStances);
             stance = stances[countStances];
             if(stance == "curvebow" &amp;&amp; !canUseBow){
                 countStances--;
@@ -468,7 +470,7 @@ if(!menuOpened){
                 stance = stances[countStances]
             }
             
-            if(countStances &gt; (array_length_1d(stances) - 1)) countStances = 0; 
+            
         }
     }
     

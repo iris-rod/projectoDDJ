@@ -54,7 +54,7 @@ margin = 2
             <kind>1</kind>
             <string>layer_id = tile_layer_find(5,x+movX,y+movY)
 if(layer_id){
-    show_debug_message("here stop");
+    //show_debug_message("here stop");
     hspeed = 0
     vspeed = 0
     movX = 0
@@ -63,7 +63,7 @@ if(layer_id){
 }
 
 if(place_meeting(x+movX,y+movY,obj_ice_block) || place_meeting(x+movX,y+movY,obj_ice_block_unmovable)){
-    show_debug_message("other blocks");
+    //show_debug_message("other blocks");
     hspeed = 0
     vspeed = 0
     movX = 0

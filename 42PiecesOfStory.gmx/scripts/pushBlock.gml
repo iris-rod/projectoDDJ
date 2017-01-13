@@ -4,7 +4,6 @@ movement = obj_player.pixelToMove
 
 //Right push
 if(place_meeting(player_x +movement,player_y,obj_ice_block)){
-    show_debug_message("right");
     var block = instance_place(player_x + movement,player_y,obj_ice_block);
     with(block){
         if(movX == 0 && movY == 0){
@@ -17,7 +16,6 @@ if(place_meeting(player_x +movement,player_y,obj_ice_block)){
 
 //Left push
 else if(place_meeting(player_x - movement,player_y,obj_ice_block)){
-    show_debug_message("left");
     var block = instance_place(player_x - movement,player_y,obj_ice_block);
     with(block){      
         if(movX == 0 && movY == 0){  
@@ -30,7 +28,6 @@ else if(place_meeting(player_x - movement,player_y,obj_ice_block)){
 
 //Down push
 else if(place_meeting(player_x,player_y+movement,obj_ice_block)){
-    show_debug_message("down");
     var block = instance_place(player_x ,player_y+movement,obj_ice_block);
     with(block){
         if(movX == 0 && movY == 0){
@@ -43,7 +40,6 @@ else if(place_meeting(player_x,player_y+movement,obj_ice_block)){
 
 //Up push
 else if(place_meeting(player_x,player_y-movement,obj_ice_block)){
-    show_debug_message("up");
     var block = instance_place(player_x ,player_y-movement,obj_ice_block);
     with(block){
         if(movX == 0 && movY == 0){

@@ -66,8 +66,6 @@
     <instance objName="obj_collision_player" x="288" y="256" name="inst_A92FD923" locked="0" code="" scaleX="1" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="54" y="300" name="inst_409303E7" locked="0" code="" scaleX="1" scaleY="0.300000011920929" colour="4294967295" rotation="0"/>
     <instance objName="obj_collision_player" x="288" y="224" name="inst_F1A2209D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="448" y="96" name="inst_6E3E5D57" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="&lt;undefined&gt;" x="448" y="128" name="inst_313F6D0A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp_room01" x="-32" y="224" name="inst_DCA2C5CD" locked="0" code="targetRoom = room_6&#xA;targetX = 448&#xA;targetY = 224&#xA;areaUnlocked = true&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_warp_room01" x="512" y="128" name="inst_77B316D3" locked="0" code="targetRoom = room_8&#xA;targetX = 32&#xA;targetY = 128&#xA;areaUnlocked = true&#xA;&#xA;flag = true;&#xA;" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_bat" x="128" y="128" name="inst_8C723450" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
